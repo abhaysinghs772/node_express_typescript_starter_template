@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Build directories
+build/
+dist/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.local
+
+# OS or Editor temporary files
+.DS_Store
+Thumbs.db
+
+# Compiled binary addons (Node.js bindings)
+/build/Release/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Coverage output
+coverage/
