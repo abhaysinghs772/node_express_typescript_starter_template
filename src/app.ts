@@ -22,7 +22,7 @@ app.use(authRoute);
 
 /* mongoDB connection */
 // chnage this string to your own db's connection string
-const uri = `mongodb+srv://${process.env.MONGO_USERID}:${process.env.MONGO_PASSWORD}@cluster0.ljrgvuv.mongodb.net/ra_electronics?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.MONGO_USERID}:${process.env.MONGO_PASSWORD}@cluster0.ljrgvuv.mongodb.net/<your_db_name>?retryWrites=true&w=majority`;
 async function connectDB() {
   try {
     await mongoose.connect(uri);
